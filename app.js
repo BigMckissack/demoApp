@@ -7,11 +7,6 @@ const port = 3000;
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/home', (req,res) => {
-    const p = path.join(__dirname, 'public/index.html')
-    res.sendFile(p);
-});
-
 http.createServer(app).listen(port, (err) => {
     if (err) {
         return console.log('server stopped', err)

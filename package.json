@@ -1,0 +1,14 @@
+{
+  "name": "demoApp",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BigMckissack/demoApp.git"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.11"
+  }
+}
